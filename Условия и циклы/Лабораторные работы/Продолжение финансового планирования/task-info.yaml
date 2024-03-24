@@ -7,7 +7,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 354
+        length: 509
         placeholder_text: |-
           salary = 5000  # Ежемесячная зарплата
           spend = 6000  # Траты за первый месяц
@@ -21,8 +21,6 @@ files:
           length: 354
           offset: 0
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           salary = 5000  # Ежемесячная зарплата
           spend = 6000  # Траты за первый месяц
@@ -36,6 +34,9 @@ files:
               spend *= 1 + increase
           
           print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital))
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       salary = 5000  # Ежемесячная зарплата
       spend = 6000  # Траты за первый месяц
@@ -51,6 +52,9 @@ files:
     text: |
       Подушка безопасности, чтобы протянуть 10 месяцев без долгов: 18783
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 24 Mar 2024 16:06:24 UTC"
 record: -1
 solution_hidden: true
