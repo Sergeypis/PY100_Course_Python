@@ -3,16 +3,17 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 95
-        length: 42
+      - offset: 278
+        length: 43
         placeholder_text: "...  # TODO подставить результат выражения"
         initial_state:
           length: 42
           offset: 95
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: "True"
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       src = not False and True or False and not True
       
@@ -30,5 +31,8 @@ files:
     text: |
       True
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 25 Mar 2024 19:39:27 UTC"
 record: -1

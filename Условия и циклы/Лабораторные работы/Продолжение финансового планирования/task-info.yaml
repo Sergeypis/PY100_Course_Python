@@ -7,7 +7,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 509
+        length: 354
         placeholder_text: |-
           salary = 5000  # Ежемесячная зарплата
           spend = 6000  # Траты за первый месяц
@@ -55,6 +55,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sun, 24 Mar 2024 16:06:24 UTC"
+  time: "Mon, 25 Mar 2024 19:17:47 UTC"
 record: -1
 solution_hidden: true

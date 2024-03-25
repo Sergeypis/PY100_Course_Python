@@ -18,8 +18,6 @@ files:
           length: 50
           offset: 105
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           max_index = 0
           max_value = list_numbers[max_index]
@@ -32,6 +30,9 @@ files:
           
           # Меняем местами последний максимальный и последний элементы
           list_numbers[max_index], list_numbers[-1] = list_numbers[-1], list_numbers[max_index]
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       list_numbers = [2, 90, -2, 8, -36, -44, -1, -85, -14, 90, -22, -90, -100, -8, 38, -92, -45, 67, 53, 25]
       
@@ -39,5 +40,8 @@ files:
       
       print(list_numbers)  # Ответ [2, 90, -2, 8, -36, -44, -1, -85, -14, 25, -22, -90, -100, -8, 38, -92, -45, 67, 53, 90]
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 25 Mar 2024 19:49:17 UTC"
 record: -1

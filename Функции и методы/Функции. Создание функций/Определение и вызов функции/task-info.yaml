@@ -10,9 +10,10 @@ files:
           length: 49
           offset: 68
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: "\"Hello, World!!!\")"
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       def say_hello():  # Функция, которая печатает приветствие
           print("Hello, World")  # TODO Поменяйте значение строки
@@ -27,6 +28,6 @@ files:
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
