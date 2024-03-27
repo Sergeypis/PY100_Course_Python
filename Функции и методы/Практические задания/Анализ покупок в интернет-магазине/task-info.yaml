@@ -11,22 +11,22 @@ files:
           offset: 0
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: |-
           def find_common_items(last_week_purchases, current_week_purchases):
               common_purchases = list(set(last_week_purchases).intersection(current_week_purchases))
               common_purchases.sort()
               return common_purchases
-      - offset: 168
-        length: 63
+      - offset: 371
+        length: 81
         placeholder_text: "print(f\"Общие товары: {...}\")  # TODO Распечатайте общие\
       \ товары"
         initial_state:
           length: 63
           offset: 168
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: "print(f\"Общие товары: {find_common_items(last_week_items,\
       \ current_week_items)}\")"
     text: |
@@ -46,5 +46,8 @@ files:
     text: |
       Общие товары: ['ноутбук', 'флешка']
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 27 Mar 2024 16:39:34 UTC"
 record: -1
