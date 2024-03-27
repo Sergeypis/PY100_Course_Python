@@ -59,5 +59,6 @@ main_str = """
 """
 
 # TODO Распечатайте в столбик букву и её частоту в тексте
-print(calculate_frequency(count_letters(main_str)))
-for print(key,":",value)
+result = calculate_frequency(count_letters(main_str))
+for key, value in result.items():
+    print(f"{key}: {value}")
