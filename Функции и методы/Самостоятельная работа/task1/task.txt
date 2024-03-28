@@ -1,0 +1,6 @@
+# Функция, которая удаляет в строке все лишние пробелы
+def overspace_delete(string):
+    return " ".join(string.split())
+    
+    
+print(overspace_delete("я    пошла  к Ваську    "))
