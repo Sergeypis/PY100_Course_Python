@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 26
+        length: 164
         placeholder_text: |-
           # TODO реализовать функцию
           def get_unique_words():
@@ -13,13 +13,14 @@ files:
           length: 58
           offset: 0
         initialized_from_dependency: false
-        selected: true
-        status: Solved
         encrypted_possible_answer: |-
           def get_unique_words(str_words):
               unique_words = list(set(str_words.split()))
               unique_words.sort()
               return unique_words
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       # TODO реализовать функцию
       def get_unique_words():
@@ -39,5 +40,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 27 Mar 2024 16:03:42 UTC"
+  time: "Thu, 28 Mar 2024 18:33:47 UTC"
 record: -1

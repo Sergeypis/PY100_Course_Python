@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 59
+        length: 260
         placeholder_text: |-
           # TODO реализовать функцию
           def remove_whitespace():
@@ -13,8 +13,6 @@ files:
           length: 59
           offset: 0
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           def remove_whitespace(str_):
               words_list = str_.split(" ")
@@ -25,6 +23,9 @@ files:
                       words_list_without_empty_string.append(word)
           
               return " ".join(words_list_without_empty_string)
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       # TODO реализовать функцию
       def remove_whitespace():
@@ -44,5 +45,11 @@ files:
       123. test bks
       print test11
     learner_created: false
-status: Unchecked
+  - name: task.txt
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 28 Mar 2024 19:41:56 UTC"
 record: -1

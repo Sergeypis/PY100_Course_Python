@@ -13,7 +13,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 53
+        length: 157
         placeholder_text: |-
           # TODO реализовать функцию count
           def count():
@@ -22,8 +22,6 @@ files:
           length: 53
           offset: 0
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           def count(list_, value):
               count_value = 0
@@ -32,6 +30,9 @@ files:
                       count_value += 1
           
               return count_value
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       # TODO реализовать функцию count
       def count():
@@ -42,5 +43,8 @@ files:
       print(count(list_items, 1) == list_items.count(1))  # True
       print(count(list_items, 3) == list_items.count(3))  # True
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 28 Mar 2024 19:53:35 UTC"
 record: -1
