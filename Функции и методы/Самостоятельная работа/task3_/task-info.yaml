@@ -3,16 +3,14 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 35
-        length: 70
+      - offset: 56
+        length: 149
         placeholder_text: "...  # TODO реализовать функцию удаления элемента из списка\
       \ по индексу"
         initial_state:
           length: 70
           offset: 35
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           if index is None:
                   index = len(list_) - 1
@@ -20,6 +18,9 @@ files:
                   index = len(list_) + index
           
               return list_[:index] + list_[index + 1:]
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       def delete(list_, index=None):
           ...  # TODO реализовать функцию удаления элемента из списка по индексу
@@ -39,5 +40,8 @@ files:
       [0, 2]
       [0, 1]
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 01 Apr 2024 16:31:17 UTC"
 record: -1

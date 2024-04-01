@@ -1,5 +1,11 @@
 def delete(list_, index=None):
-    ...  # TODO реализовать функцию удаления элемента из списка по индексу
+    list_ = list_[:]
+    if index is None:
+        index = len(list_) - 1
+    elif index < 0:
+        index = len(list_) + index
+
+    return list_[:index] + list_[index + 1:]
 
 
 print(delete([0, 1, 2], index=0))  # [0, 1]
