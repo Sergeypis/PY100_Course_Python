@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 204
+        length: 48
         placeholder_text: |-
           # TODO реализовать функцию
           def insert():
@@ -13,12 +13,11 @@ files:
           length: 48
           offset: 0
         initialized_from_dependency: false
+        selected: false
+        status: Solved
         encrypted_possible_answer: |-
           def insert(list_, value, index=0):
               return list_[:index] + [value] + list_[index:]
-        selected: false
-        status: Solved
-        is_visible: false
     text: |
       # TODO реализовать функцию
       def insert():
@@ -42,5 +41,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 30 Mar 2024 19:25:21 UTC"
+  time: "Wed, 03 Apr 2024 15:07:06 UTC"
 record: -1

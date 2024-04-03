@@ -4,19 +4,19 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 41
+        length: 27
         placeholder_text: '# TODO Напишите функцию get_student_names'
         initial_state:
           length: 41
           offset: 0
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: |-
           def get_student_names(students: list[dict]) -> list[str]:
               """Функция для извлечения списка имен учеников из списка словарей с информацией о них."""
               return [student["name"] for student in students]
-      - offset: 493
+      - offset: 700
         length: 41
         placeholder_text: '# TODO Вызовите функцию get_student_names'
         initial_state:
@@ -24,7 +24,7 @@ files:
           offset: 493
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: print(get_student_names(students_list))
     text: |
       # TODO Напишите функцию get_student_names
@@ -122,5 +122,8 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 03 Apr 2024 17:04:22 UTC"
 record: -1

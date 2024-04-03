@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 272
+        length: 60
         placeholder_text: |-
           # TODO реализовать функцию
           def get_sentences_list():
@@ -13,6 +13,8 @@ files:
           length: 60
           offset: 0
         initialized_from_dependency: false
+        selected: false
+        status: Solved
         encrypted_possible_answer: |-
           def get_sentences_list(str_words):
               sentences_list = []
@@ -21,9 +23,6 @@ files:
                       sentences_list.append(sentence.strip())
           
               return sentences_list
-        selected: false
-        status: Solved
-        is_visible: false
     text: |
       # TODO реализовать функцию
       def get_sentences_list():
@@ -43,5 +42,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sun, 31 Mar 2024 06:50:32 UTC"
+  time: "Wed, 03 Apr 2024 15:07:08 UTC"
 record: -1

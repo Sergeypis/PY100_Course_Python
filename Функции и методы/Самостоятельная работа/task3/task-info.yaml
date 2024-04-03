@@ -13,7 +13,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 157
+        length: 53
         placeholder_text: |-
           # TODO реализовать функцию count
           def count():
@@ -22,6 +22,8 @@ files:
           length: 53
           offset: 0
         initialized_from_dependency: false
+        selected: false
+        status: Solved
         encrypted_possible_answer: |-
           def count(list_, value):
               count_value = 0
@@ -30,9 +32,6 @@ files:
                       count_value += 1
           
               return count_value
-        selected: false
-        status: Solved
-        is_visible: false
     text: |
       # TODO реализовать функцию count
       def count():
@@ -46,5 +45,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 28 Mar 2024 19:53:35 UTC"
+  time: "Wed, 03 Apr 2024 15:07:04 UTC"
 record: -1

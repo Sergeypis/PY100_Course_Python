@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 260
+        length: 59
         placeholder_text: |-
           # TODO реализовать функцию
           def remove_whitespace():
@@ -13,6 +13,8 @@ files:
           length: 59
           offset: 0
         initialized_from_dependency: false
+        selected: false
+        status: Solved
         encrypted_possible_answer: |-
           def remove_whitespace(str_):
               words_list = str_.split(" ")
@@ -23,9 +25,6 @@ files:
                       words_list_without_empty_string.append(word)
           
               return " ".join(words_list_without_empty_string)
-        selected: false
-        status: Solved
-        is_visible: false
     text: |
       # TODO реализовать функцию
       def remove_whitespace():
@@ -51,5 +50,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 28 Mar 2024 19:41:56 UTC"
+  time: "Wed, 03 Apr 2024 15:07:02 UTC"
 record: -1

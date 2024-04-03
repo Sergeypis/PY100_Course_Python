@@ -3,8 +3,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 111
-        length: 127
+      - offset: 97
+        length: 98
         placeholder_text: |-
           # TODO заменить на list comprehension
               squares = []
@@ -16,7 +16,7 @@ files:
           offset: 111
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: "return [i ** 2 for i in range(n+1)]"
     text: |
       def generate_squares(n):
@@ -81,5 +81,8 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 03 Apr 2024 16:32:44 UTC"
 record: -1
