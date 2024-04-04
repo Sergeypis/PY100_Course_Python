@@ -17,8 +17,8 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 342
-        length: 0
+      - offset: 45
+        length: 95
         placeholder_text: '# TODO Перемножте с помощью функции `multiply_numbers` при
       пары чисел и распечатайте результаты'
         initial_state:
@@ -55,5 +55,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 26 Mar 2024 12:12:44 UTC"
+  time: "Thu, 04 Apr 2024 15:51:06 UTC"
 record: -1

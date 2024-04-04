@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 164
+        length: 58
         placeholder_text: |-
           # TODO реализовать функцию
           def get_unique_words():
@@ -40,5 +40,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 28 Mar 2024 18:33:47 UTC"
+  time: "Thu, 04 Apr 2024 15:51:49 UTC"
 record: -1

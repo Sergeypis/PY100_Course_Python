@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 68
-        length: 52
+        length: 49
         placeholder_text: "\"Hello, World\")  # TODO Поменяйте значение строки"
         initial_state:
           length: 49

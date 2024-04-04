@@ -11,8 +11,6 @@ files:
           length: 70
           offset: 35
         initialized_from_dependency: false
-        selected: false
-        status: Solved
         encrypted_possible_answer: |-
           if index is None:
                   index = len(list_) - 1
@@ -20,6 +18,9 @@ files:
                   index = len(list_) + index
           
               return list_[:index] + list_[index + 1:]
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       def delete(list_, index=None):
           ...  # TODO реализовать функцию удаления элемента из списка по индексу
@@ -42,5 +43,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 03 Apr 2024 15:07:10 UTC"
+  time: "Thu, 04 Apr 2024 15:52:23 UTC"
 record: -1

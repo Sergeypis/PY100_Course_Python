@@ -22,7 +22,7 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 496
+      - offset: 156
         length: 65
         placeholder_text: '# TODO Провеьте работу функции с разделителем отличным от запятой'
         initial_state:
@@ -122,6 +122,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 28 Mar 2024 18:39:44 UTC"
+  time: "Thu, 04 Apr 2024 15:52:04 UTC"
 record: -1
 solution_hidden: true

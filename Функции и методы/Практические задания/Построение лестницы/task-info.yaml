@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 130
+        length: 36
         placeholder_text: '# TODO Напишите функцию print_stairs'
         initial_state:
           length: 36
@@ -17,7 +17,7 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 133
+      - offset: 39
         length: 62
         placeholder_text: '# TODO вызвать функцию без аргументов и с аргументом равным
       10'
@@ -61,5 +61,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 28 Mar 2024 18:31:46 UTC"
+  time: "Thu, 04 Apr 2024 15:51:44 UTC"
 record: -1

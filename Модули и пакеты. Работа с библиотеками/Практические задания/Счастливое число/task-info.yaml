@@ -3,33 +3,35 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 43
-        length: 60
+      - offset: 71
+        length: 81
         placeholder_text: "...  # TODO проверить что число шестизначное и положительно\
       е"
         initial_state:
           length: 60
           offset: 43
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           if num <= 0:
                   raise ValueError("Число не является положительным :(")
               if len(str(num)) != 6:
                   raise ValueError("Число не шестизначное :(")
-      - offset: 109
-        length: 46
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 501
+        length: 71
         placeholder_text: "...  # TODO проверить счастливое число или нет"
         initial_state:
           length: 46
           offset: 109
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           list_digits = [int(digit) for digit in str(num)]
               return sum(list_digits[:3]) == sum(list_digits[3:])
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       def is_lucky_number(num: int) -> bool:
           ...  # TODO проверить что число шестизначное и положительное
@@ -53,5 +55,8 @@ files:
       False
       False
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 04 Apr 2024 19:31:03 UTC"
 record: -1

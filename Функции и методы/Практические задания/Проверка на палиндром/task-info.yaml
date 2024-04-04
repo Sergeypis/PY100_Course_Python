@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 239
+        length: 39
         placeholder_text: '# TODO Напишите функцию `is_palindrome`'
         initial_state:
           length: 39
@@ -79,5 +79,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 28 Mar 2024 18:34:26 UTC"
+  time: "Thu, 04 Apr 2024 15:51:53 UTC"
 record: -1

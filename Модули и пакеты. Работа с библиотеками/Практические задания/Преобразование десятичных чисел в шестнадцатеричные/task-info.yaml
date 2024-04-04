@@ -10,8 +10,6 @@ files:
           length: 38
           offset: 0
         initialized_from_dependency: false
-        selected: true
-        status: Failed
         encrypted_possible_answer: |-
           def decimal_to_hex() -> dict[int, str]:
               """
@@ -21,19 +19,23 @@ files:
               dict: Словарь с преобразованными значениями.
               """
               return {decimal: hex(decimal) for decimal in range(16)}
-      - offset: 233
-        length: 95
+        selected: false
+        status: Solved
+        is_visible: false
+      - offset: 72
+        length: 76
         placeholder_text: "...  # TODO Распечатайте словарь с десятичными и шестнадцат\
       еричными числами"
         initial_state:
           length: 75
           offset: 72
         initialized_from_dependency: false
-        selected: false
-        status: Failed
         encrypted_possible_answer: |-
           converted_dict = decimal_to_hex()
               print(converted_dict)
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       # TODO Напишите функцию decimal_to_hex
       
@@ -49,12 +51,8 @@ files:
     text: |
       {0: '0x0', 1: '0x1', 2: '0x2', 3: '0x3', 4: '0x4', 5: '0x5', 6: '0x6', 7: '0x7', 8: '0x8', 9: '0x9', 10: '0xa', 11: '0xb', 12: '0xc', 13: '0xd', 14: '0xe', 15: '0xf'}
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Wed, 03 Apr 2024 18:03:24 UTC"
-  expected: |
-    {0: '0x0', 1: '0x1', 2: '0x2', 3: '0x3', 4: '0x4', 5: '0x5', 6: '0x6', 7: '0x7', 8: '0x8', 9: '0x9', 10: '0xa', 11: '0xb', 12: '0xc', 13: '0xd', 14: '0xe', 15: '0xf'}
-  actual: |
-    {1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10, 11: 11, 12: 12, 13: 13, 14: 14, 15: 15}
+  message: Congratulations!
+  time: "Thu, 04 Apr 2024 16:01:09 UTC"
 record: -1

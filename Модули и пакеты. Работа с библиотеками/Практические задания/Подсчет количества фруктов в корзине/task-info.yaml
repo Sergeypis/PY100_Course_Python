@@ -10,21 +10,23 @@ files:
           length: 49
           offset: 0
         initialized_from_dependency: false
+        encrypted_possible_answer: from collections import Counter
         selected: false
         status: Solved
-        encrypted_possible_answer: from collections import Counter
-      - offset: 701
+        is_visible: false
+      - offset: 662
         length: 43
         placeholder_text: '# TODO Подсчитайте фрукты с помощью Counter'
         initial_state:
           length: 43
           offset: 662
         initialized_from_dependency: false
-        selected: false
-        status: Solved
         encrypted_possible_answer: |-
           fruit_counter = Counter(cart_fruits)
               print(fruit_counter)
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       # TODO Импортируйте Counter из модуля collections
       
@@ -51,5 +53,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 03 Apr 2024 16:20:42 UTC"
+  time: "Thu, 04 Apr 2024 15:52:51 UTC"
 record: -1

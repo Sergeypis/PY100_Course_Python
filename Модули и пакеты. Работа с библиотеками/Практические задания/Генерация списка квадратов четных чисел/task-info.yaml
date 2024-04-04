@@ -3,8 +3,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 103
-        length: 142
+      - offset: 117
+        length: 191
         placeholder_text: |-
           # TODO Замените на list comprehension c условием фильтрации
               even_squares = []
@@ -16,9 +16,10 @@ files:
           length: 191
           offset: 117
         initialized_from_dependency: false
-        selected: true
-        status: Solved
         encrypted_possible_answer: "return [i ** 2 for i in range(n+1) if i % 2 == 0]"
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       def generate_even_squares(n):
           """
@@ -85,5 +86,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 03 Apr 2024 16:52:51 UTC"
+  time: "Thu, 04 Apr 2024 15:52:59 UTC"
 record: -1

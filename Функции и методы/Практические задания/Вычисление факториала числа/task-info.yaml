@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 158
+        length: 35
         placeholder_text: '# TODO Запишите функцию `factorial`'
         initial_state:
           length: 35
@@ -23,7 +23,7 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 161
+      - offset: 38
         length: 139
         placeholder_text: "# TODO Вызовите функцию factorial и распечатайте результат\
       \ \nprint(f\"Факториал числа 0 равен {...}\")\nprint(f\"Факториал числа 5 ра\
@@ -54,5 +54,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 28 Mar 2024 18:30:50 UTC"
+  time: "Thu, 04 Apr 2024 15:51:41 UTC"
 record: -1

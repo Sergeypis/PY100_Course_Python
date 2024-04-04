@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 61
-        length: 137
+      - offset: 65
+        length: 91
         placeholder_text: "...  # TODO Найдите количество электростанций, мощность кот\
       орых превышает заданное значение"
         initial_state:
@@ -21,8 +21,8 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 453
-        length: 57
+      - offset: 411
+        length: 55
         placeholder_text: "...  # TODO Вызовите функцию count_powerful_powerplants"
         initial_state:
           length: 55
@@ -61,5 +61,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 26 Mar 2024 18:04:06 UTC"
+  time: "Thu, 04 Apr 2024 15:51:29 UTC"
 record: -1

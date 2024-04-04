@@ -13,11 +13,12 @@ files:
           length: 48
           offset: 0
         initialized_from_dependency: false
-        selected: false
-        status: Solved
         encrypted_possible_answer: |-
           def insert(list_, value, index=0):
               return list_[:index] + [value] + list_[index:]
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       # TODO реализовать функцию
       def insert():
@@ -41,5 +42,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Wed, 03 Apr 2024 15:07:06 UTC"
+  time: "Thu, 04 Apr 2024 15:52:17 UTC"
 record: -1

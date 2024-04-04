@@ -10,8 +10,6 @@ files:
           length: 40
           offset: 15
         initialized_from_dependency: false
-        selected: true
-        status: Unchecked
         encrypted_possible_answer: |-
           {
               1: "Зима",
@@ -19,6 +17,9 @@ files:
               3: "Лето",
               4: "Осень",
           }
+        selected: true
+        status: Failed
+        is_visible: false
     text: |
       seasons_dict = ...  # TODO запишите словарь времен года
       
@@ -32,5 +33,8 @@ files:
     text: |
       {1: 'Зима', 2: 'Весна', 3: 'Лето', 4: 'Осень'}
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Syntax Error
+  time: "Thu, 04 Apr 2024 15:50:05 UTC"
 record: -1

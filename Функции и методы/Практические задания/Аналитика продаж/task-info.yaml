@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 39
-        length: 230
+      - offset: 43
+        length: 78
         placeholder_text: "...  # TODO Вычислите общую стоимость проданных товаров из\
       \ списка `sales_list`"
         initial_state:
@@ -20,8 +20,8 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 507
-        length: 133
+      - offset: 359
+        length: 103
         placeholder_text: "...  # TODO Вызовете функцию calculate_total_sales и переда\
       йте в функцию значение переменной sales_data"
         initial_state:
@@ -57,5 +57,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 26 Mar 2024 14:02:54 UTC"
+  time: "Thu, 04 Apr 2024 15:51:25 UTC"
 record: -1

@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 278
-        length: 43
+      - offset: 95
+        length: 42
         placeholder_text: "...  # TODO подставить результат выражения"
         initial_state:
           length: 42
@@ -34,5 +34,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Mon, 25 Mar 2024 19:39:27 UTC"
+  time: "Thu, 04 Apr 2024 15:50:54 UTC"
 record: -1
