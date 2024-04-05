@@ -4,29 +4,27 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 186
+        length: 42
         placeholder_text: '# TODO  Напишите функцию get_shortest_word'
         initial_state:
           length: 42
           offset: 0
         initialized_from_dependency: false
+        selected: false
+        status: Unchecked
         encrypted_possible_answer: |-
           def get_shortest_word(words: list[str]) -> str:
               return min(words, key=len)
-        selected: false
-        status: Solved
-        is_visible: false
-      - offset: 304
-        length: 66
+      - offset: 161
+        length: 40
         placeholder_text: "...  # TODO Найдите самое короткое слово"
         initial_state:
           length: 40
           offset: 161
         initialized_from_dependency: false
-        encrypted_possible_answer: get_shortest_word(words_list)
         selected: false
-        status: Solved
-        is_visible: false
+        status: Unchecked
+        encrypted_possible_answer: get_shortest_word(words_list)
     text: |
       # TODO  Напишите функцию get_shortest_word
       
@@ -44,8 +42,5 @@ files:
     text: |
       kiwi
     learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: "Fri, 05 Apr 2024 19:05:07 UTC"
+status: Unchecked
 record: -1
