@@ -1,4 +1,10 @@
 # TODO Напишите функцию sort_participants
+from pprint import pprint
+
+
+def sort_participants(player_list: list[dict]) -> list[dict]:
+    """Функция сортирует список участников по имени"""
+    return sorted(player_list, key=lambda player: player["name"])
 
 
 if __name__ == "__main__":
@@ -25,4 +31,5 @@ if __name__ == "__main__":
         },
     ]
 
+    # pprint(sort_participants(participants_list))
     print(sort_participants(participants_list))

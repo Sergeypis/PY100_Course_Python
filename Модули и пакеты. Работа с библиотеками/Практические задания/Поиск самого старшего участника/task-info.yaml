@@ -4,10 +4,10 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 47
+        length: 228
         placeholder_text: '# TODO Напишите функцию get_oldest_participant'
         initial_state:
-          length: 46
+          length: 47
           offset: 0
         initialized_from_dependency: false
         encrypted_possible_answer: |-
@@ -16,12 +16,12 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 457
+      - offset: 359
         length: 83
         placeholder_text: "...  # TODO Найдите самого старшего участника"
         initial_state:
-          length: 45
-          offset: 495
+          length: 83
+          offset: 457
         initialized_from_dependency: false
         encrypted_possible_answer: get_oldest_participant(participants_list)
         selected: false
@@ -69,5 +69,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Fri, 05 Apr 2024 19:19:22 UTC"
+  time: "Fri, 05 Apr 2024 20:34:52 UTC"
 record: -1
