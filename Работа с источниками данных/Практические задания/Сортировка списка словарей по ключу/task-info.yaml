@@ -3,17 +3,18 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 134
-        length: 51
+      - offset: 196
+        length: 46
         placeholder_text: "...  # TODO отсортировать и вернуть список словарей"
         initial_state:
           length: 51
           offset: 134
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: "return sorted(json_data, key=lambda item: item[\"\
       id\"])"
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       import json
       
@@ -159,5 +160,8 @@ files:
   - name: input.json
     visible: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Apr 2024 20:06:55 UTC"
 record: -1

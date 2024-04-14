@@ -4,19 +4,20 @@ files:
     visible: true
     placeholders:
       - offset: 70
-        length: 57
+        length: 232
         placeholder_text: "...  # TODO перезаписать содержимое одного файла в другой"
         initial_state:
           length: 57
           offset: 70
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           with open(INPUT_FILE, "r") as input_file:
                   with open(OUTPUT_FILE, "w") as output_file:
                       for line in input_file:
                           output_file.write(line.upper())
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       INPUT_FILE = "input.txt"
       OUTPUT_FILE = "output.txt"
@@ -54,5 +55,11 @@ files:
       Turquoise
       Cyan
     learner_created: false
-status: Unchecked
+  - name: output.txt
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 14 Apr 2024 18:29:02 UTC"
 record: -1

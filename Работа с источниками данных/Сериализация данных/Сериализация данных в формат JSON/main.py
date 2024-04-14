@@ -1,8 +1,8 @@
 import json
 
 filename = 'output.json'
-indent = None  # TODO Подставьте любое целое число
-ensure_ascii = True  # TODO Замените на значение True
+indent = 4  # TODO Подставьте любое целое число
+ensure_ascii = False  # TODO Замените на значение True
 
 data = {
     'name': 'John',
@@ -11,7 +11,7 @@ data = {
 }
 
 # Запись данных в файл в формате JSON
-with open(filename, 'w') as file:
+with open(filename, 'w', encoding="utf-8") as file:
     json.dump(data, file, indent=indent, ensure_ascii=ensure_ascii)
 
 # Сериализация данных в строку JSON
