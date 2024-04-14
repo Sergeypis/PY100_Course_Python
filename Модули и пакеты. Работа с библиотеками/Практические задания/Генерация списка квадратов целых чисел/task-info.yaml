@@ -15,9 +15,10 @@ files:
           length: 127
           offset: 111
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: "return [i ** 2 for i in range(n+1)]"
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       def generate_squares(n):
           """
@@ -81,5 +82,8 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 04 Apr 2024 15:52:56 UTC"
 record: -1

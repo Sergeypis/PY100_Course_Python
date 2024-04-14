@@ -1,7 +1,7 @@
 """ Только для python >= 3.9 """
 
 
-def get_tuple() -> tuple[int, str]:  # кортеж из двух элементов
+def get_tuple() -> tuple[int, ...]:  # кортеж из двух элементов
     return 1, "two"
 
 
@@ -15,3 +15,9 @@ def get_list() -> list[int]:  # внутри все значения типа in
 
 def get_dict() -> dict[int, list]:  # пара тип ключа - тип значения
     return {1: [2]}
+
+
+print(get_tuple())
+print(get_tuple_ints())
+print(get_list())
+print(get_dict())

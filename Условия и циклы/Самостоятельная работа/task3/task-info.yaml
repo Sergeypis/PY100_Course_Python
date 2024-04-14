@@ -18,7 +18,7 @@ files:
               else:                   # x < 0, y < 0
                   print("Третья четверть")
         initial_state:
-          length: 359
+          length: 241
           offset: 14
         initialized_from_dependency: false
         encrypted_possible_answer: |-
@@ -60,5 +60,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Mon, 25 Mar 2024 19:27:10 UTC"
+  time: "Sun, 24 Mar 2024 18:50:41 UTC"
 record: -1

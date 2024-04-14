@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 204
+        length: 48
         placeholder_text: |-
           # TODO реализовать функцию
           def insert():
@@ -42,5 +42,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Sat, 30 Mar 2024 19:25:21 UTC"
+  time: "Thu, 04 Apr 2024 15:52:17 UTC"
 record: -1

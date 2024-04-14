@@ -8,7 +8,7 @@ files:
         placeholder_text: "...  # TODO записать условие, что только первое число меньш\
       е 45"
         initial_state:
-          length: 63
+          length: 90
           offset: 36
         initialized_from_dependency: false
         encrypted_possible_answer: a < 45 and b >= 45 and c >= 45
@@ -20,8 +20,8 @@ files:
         placeholder_text: "...  # TODO записать условие, что только второе число меньш\
       е 45"
         initial_state:
-          length: 63
-          offset: 114
+          length: 90
+          offset: 141
         initialized_from_dependency: false
         encrypted_possible_answer: a >= 45 and b < 45 and c >= 45
         selected: false
@@ -32,8 +32,8 @@ files:
         placeholder_text: "...  # TODO записать условие, что только третье число меньш\
       е 45"
         initial_state:
-          length: 63
-          offset: 192
+          length: 90
+          offset: 246
         initialized_from_dependency: false
         encrypted_possible_answer: a >= 45 and b >= 45 and c < 45
         selected: false
@@ -44,8 +44,8 @@ files:
         placeholder_text: "...:  # TODO объединить три условия с помощью нужного логич\
       еского оператора and или or"
         initial_state:
-          length: 86
-          offset: 260
+          length: 124
+          offset: 341
         initialized_from_dependency: false
         encrypted_possible_answer: 'condition_1 or condition_2 or condition_3:'
         selected: false
@@ -74,5 +74,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Mon, 25 Mar 2024 19:24:37 UTC"
+  time: "Sun, 24 Mar 2024 18:37:17 UTC"
 record: -1

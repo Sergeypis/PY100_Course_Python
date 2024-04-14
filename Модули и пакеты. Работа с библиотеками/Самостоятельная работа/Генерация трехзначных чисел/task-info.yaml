@@ -3,15 +3,13 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 0
+      - offset: 29
         length: 57
         placeholder_text: "# TODO написать функцию, которая выдает трехзначное число"
         initial_state:
           length: 57
           offset: 0
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           from random import randint
           
@@ -24,12 +22,15 @@ files:
           
           
           print(get_random_number())
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       # TODO написать функцию, которая выдает трехзначное число
     learner_created: false
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

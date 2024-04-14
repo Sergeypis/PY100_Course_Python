@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 727
+        length: 38
         placeholder_text: '# TODO  Напишите функцию count_letters'
         initial_state:
           length: 38
@@ -25,7 +25,7 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 730
+      - offset: 41
         length: 43
         placeholder_text: '# TODO Напишите функцию calculate_frequency'
         initial_state:
@@ -39,8 +39,8 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 1688
-        length: 61
+      - offset: 999
+        length: 57
         placeholder_text: '# TODO Распечатайте в столбик букву и её частоту в тексте'
         initial_state:
           length: 57
@@ -140,6 +140,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 28 Mar 2024 18:30:37 UTC"
+  time: "Thu, 04 Apr 2024 15:52:06 UTC"
 record: -1
 solution_hidden: true

@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 133
-        length: 200
+      - offset: 79
+        length: 62
         placeholder_text: "...  # TODO проверить что в строку входят только символы 1\
       \ и 0"
         initial_state:
@@ -49,5 +49,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Mon, 01 Apr 2024 16:40:38 UTC"
+  time: "Thu, 04 Apr 2024 15:52:25 UTC"
 record: -1

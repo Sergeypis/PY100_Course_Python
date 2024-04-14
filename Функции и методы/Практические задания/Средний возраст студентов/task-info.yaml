@@ -19,7 +19,7 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 320
+      - offset: 194
         length: 94
         placeholder_text: "print(f\"Средний возраст студентов: {...)} лет\")  # TODO Р\
       аспечатайте средний возраст студентов"
@@ -48,5 +48,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 28 Mar 2024 18:35:05 UTC"
+  time: "Thu, 04 Apr 2024 15:51:55 UTC"
 record: -1
