@@ -4,6 +4,12 @@ OUTPUT_FILE = "output.csv"
 
 
 # TODO реализовать функцию to_csv_file
+def to_csv_file(filename, headers: list, rows: list, delimiter: str = ",", new_line: str = "\n") -> None:
+    """Функция записывает данныев файл в формате csv"""
+    with open(filename, "w", encoding="utf-8") as csv_file:
+        csv_file.writelines(delimiter.join(headers) + new_line)
+        for line in rows:
+            csv_file.write(delimiter.join(line) + new_line)
 
 
 if __name__ == '__main__':
@@ -17,7 +23,7 @@ if __name__ == '__main__':
     ]
 
     # TODO Вызовете функцию to_csv_file и запишите данные в файл
-
+    to_csv_file(OUTPUT_FILE, headers_list, data)
     # Нужно для проверки задания
     if os.path.exists(OUTPUT_FILE):
         with open(OUTPUT_FILE) as output_f:
