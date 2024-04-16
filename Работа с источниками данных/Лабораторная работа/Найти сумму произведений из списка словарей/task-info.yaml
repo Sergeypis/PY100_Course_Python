@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 65
+        length: 410
         placeholder_text: |-
           # TODO решите задачу
           def task() -> float:
@@ -16,8 +16,6 @@ files:
           length: 65
           offset: 0
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
         encrypted_possible_answer: |-
           import json
           
@@ -32,6 +30,9 @@ files:
           
           
           print(task())
+        selected: false
+        status: Solved
+        is_visible: false
     text: |
       # TODO решите задачу
       def task() -> float:
@@ -51,6 +52,9 @@ files:
   - name: input.json
     visible: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 16 Apr 2024 08:00:17 UTC"
 record: -1
 solution_hidden: true
